@@ -3,7 +3,6 @@
 
 This project is a **Hangman game** where the AI uses a **greedy algorithm** to make guesses. Instead of guessing randomly, the AI chooses the letter that is most likely to appear in the word based on the current state of the game.
 
-### Key Features:
 1. **Greedy Algorithm**:
    - The AI evaluates each possible letter and calculates a **score** based on how often it appears in words that still match the partially guessed word. It then chooses the letter with the highest score to guess next.
    - The goal is to optimize guesses and minimize the number of wrong attempts, making the AI more efficient than random guessing.
